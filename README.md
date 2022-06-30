@@ -16,7 +16,7 @@ ikuti langkah langkah di bawah untuk instalasi laravel
 ```sh
 composer install
 ```
-- copy dan rename .env.example `(silakan ikuti syntax di bawah jika mengunakan terminal)`
+- copy dan rename .env.example menjadi .env `(silakan ikuti syntax di bawah jika mengunakan terminal)`
 ```sh
 mv .env.example .env
 ``` 
