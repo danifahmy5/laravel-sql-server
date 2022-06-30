@@ -24,7 +24,7 @@ mv .env.example .env
 ```sh
 php artisan key:generate
 ```
-- membuat database baru via mysql command / via cli sama saja
+- membuat database baru via command / via cli sama saja
 ```sh
 CREATE DATABASE Laravel-sql-server
 ```
