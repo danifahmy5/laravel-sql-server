@@ -11,21 +11,26 @@
 
 windows 10 / 11
 
-- install odbc driver microsoft 
-```sh 
-https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16
-```
+- install odbc driver microsoft  
+[https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16 "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16") 
+
 - download extention php sesuai versi php kalian masing-masing
-```sh
-https://learn.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-ver16
-```
+[https://learn.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-ver16](https://learn.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-ver16)
+
 - setelah success install **ODBC** dan download **EXTENTION PHP** ubah 
-**php.ini** pada directori php di komputer kalian masing masing
-default dir pada windows:
+**php.ini** pada directori php di komputer kalian masing masing copy file extention pada folder `<your directory php>/ext` default dir pada windows:
 #### xampp
 `C:\xampp\php\php.ini`
 #### laragon
 `C:\laragon\bin\php\php-7.4.14-nts-Win32-vc15-x64\php.ini`
+
+- lalu tambahkan: 
+***(pastikan nama extensionnya sama dengan nama file yang kalian pindah ke folder ext dengan menghilangkan php di depan nama file tersebut )***
+```sh
+extension=sqlsrv
+extension=pdo_sqlsrv
+```
+------------
 
 
 ## Panduan instalasi Laravel
