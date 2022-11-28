@@ -7,6 +7,27 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## panduan instalasi sql server
+
+windows 10 / 11
+
+- install odbc driver microsoft 
+```sh 
+https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16
+```
+- download extention php sesuai versi php kalian masing-masing
+```sh
+https://learn.microsoft.com/en-us/sql/connect/php/download-drivers-php-sql-server?view=sql-server-ver16
+```
+- setelah success install **ODBC** dan download **EXTENTION PHP** ubah 
+**php.ini** pada directori php di komputer kalian masing masing
+default dir pada windows:
+#### xampp
+`C:\xampp\php\php.ini`
+#### laragon
+`C:\laragon\bin\php\php-7.4.14-nts-Win32-vc15-x64\php.ini`
+
+
 ## Panduan instalasi Laravel
 
 ikuti langkah langkah di bawah untuk instalasi laravel
