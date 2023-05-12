@@ -18,7 +18,7 @@
 
 windows 10 / 11
 
-- install odbc driver microsoft  
+- install odbc driver microsoft anda bisa mendownloadnya pada folder driver, **ini adalah link untuk versi file terupdate**
 [https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16 "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16") 
 
 - download extention php sesuai versi php kalian masing-masing
